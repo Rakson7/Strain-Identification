@@ -47,10 +47,10 @@ To execute from command line:
 'python3 IBNB_Test.py --testpath=TESTPATH --reference_interval=INTERVAL --cores=CORES --input_model=IN'
 
 
-TESTPATH  : path of the folder containing test samples
-INTERVAL  : Number of reads after which you want the predicted result.
-CORES     : number of cores you want to use for testing on multiple test samples
-IN        : path of pretrained model
+TESTPATH  : path of the folder containing test samples       
+INTERVAL  : Number of reads after which you want the predicted result.       
+CORES     : number of cores you want to use for testing on multiple test samples         
+IN        : path of pretrained model        
 
 
 
