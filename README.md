@@ -9,6 +9,11 @@ To install Bio Python - https://biopython.org/wiki/Download
 
 # How to Use:
 
+Initially, We need to train our model on the reference genomes. After training we can provide any test sample and it will predict the genome class on the basis of given reference samples.
+
+Suppose our model is trained on 10 reference classes then our model will identify the test sample into one of these 10 references. 
+
+
 Training -
 
 IBNB_Train.py will be used for training the model. This will train the model on the given reference classes and store that model.
