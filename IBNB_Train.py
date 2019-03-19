@@ -116,8 +116,8 @@ class IBNB_Model:
 def parse_command(model):
     parser = OptionParser()
     parser.add_option("--refpath", dest="fasta_refPath", help="Path to folder containing reference fasta sequences.[default='train_data']",default="train_data")    
-    parser.add_option("--klen", type="int", dest="klen", help="Length of Kmer to train.(can take values 8 to 12,suggested 10 to 12) [default=12]", default=16)
-    parser.add_option("--hklen", type="int", dest="hklen", help="Length of Kmer to train.(max same as klen, suggested half of klen) [default=6]",default=8)    
+    parser.add_option("--klen", type="int", dest="klen", help="Length of Kmer to train.(can take values 8 to 12,suggested 10 to 12) [default=12]", default=12)
+    parser.add_option("--hklen", type="int", dest="hklen", help="Length of Kmer to train.(max same as klen, suggested half of klen) [default=6]",default=6)    
     parser.add_option("--cores", type="int", dest="no_of_pools", help="Number of cores to parallelise if multiple test samples.[default=4]", default=4)    
     parser.add_option("--output_model" ,dest="output_model_path", help="Location of saving the current training model.", default="IBNB_Model")
 
