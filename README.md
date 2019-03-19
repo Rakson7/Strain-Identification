@@ -30,8 +30,8 @@ To execute from command line:
 'python3 IBNB_Train.py --refpath=REFPATH --klen=KLEN --hklen=HKLEN --cores=CORES --output_model=OUT'
 
 REFPATH : path of the folder containing reference genomes on which you want to train your model   
-KLEN    : size of the word , default = 16    
-HKLEN   : size of the subword , default = 8    
+KLEN    : size of the word , default = 12    
+HKLEN   : size of the subword , default = 6    
 CORES   : number of cores you want to use for training on multiple references      
 OUT     : path where you want to store your model     
 
